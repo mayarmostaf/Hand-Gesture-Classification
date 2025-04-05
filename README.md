@@ -17,7 +17,7 @@ The input to this project is a CSV file containing hand landmark data. The landm
    - The points are scaled by dividing all the landmarks by the mid-finger tip position.
 
 2. **Normalization**:
-   - Each landmark is normalized by dividing its coordinate by the difference between the maximum and minimum values of that dimension (for example, `x = (x - xmin) / (xmax - xmin)`).
+   - Each landmark is normalized by dividing its coordinate by the difference between the maximum and minimum values of that dimension (for example, `x = (x - x0) / (xmax - xmin)`).
    - This process is also accompanied by centering the data.
 
 3. **Rotation, Flipping, Centerization, and Normalization**:
