@@ -42,7 +42,7 @@ Each model was evaluated using accuracy as the primary metric. The best-performi
 - Accuracy
 - Precision
 - Recall
-- F2 Score
+- F1 Score
 - Confusion Matrix (using 5-fold cross-validation)
 
 This approach provided a robust understanding of how the model performs on unseen data.
